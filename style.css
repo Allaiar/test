@@ -1,0 +1,44 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "DM Sans", sans-serif;
+  }
+  
+  body {
+    background-color: rgba(44, 43, 43, 0.473);
+    color: white;
+  }
+  .cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+  }
+  .img{
+    border-radius: 10px;
+  }
+  .card{
+    display: flex;
+    align-items: center;
+    background: #363636;
+    border-radius: 20px;
+    padding: 20px;
+    gap: 20px;
+  }
+  .mult__average--red {
+    background-color: red;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .mult__average--green {
+    background-color: green;
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+  }
+  .point{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+  }
