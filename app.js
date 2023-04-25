@@ -35,12 +35,17 @@ function showMults(data) {
                         )}"></div>
                         <p>${mult.status}</p>
                         <p>${mult.species}</p>
-                    </div>
+                     </div>
+                    <div class="card-text2">
                     <p>Last known location:</p>
-                    <p></p>
+                    <p>${mult.location.name}</p>
+                    </div>
+                    <div class="card-text3">
                     <p>First seen in:</p>
-                    <div>${mult.gender}</div>
+                    <p>${mult.origin.name}</p>
+                    </div>
                 </div>
+              </div>
           </div>
           `;
 
